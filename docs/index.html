@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Weekend Tee Times</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Tee Times">
+<meta name="theme-color" content="#123524">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%23123524'/><path d='M24 50V12l18 8-18 8' fill='none' stroke='%23f2c230' stroke-width='5' stroke-linejoin='round'/><circle cx='40' cy='48' r='5' fill='%23fff'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap">
+<style>
+  /* Layout: a tee sheet. One column of days; each course is a row of tappable tee times, four dots per time = a four-ball. */
+  :root {
+    --bg: #eef2ec; --card: #fbfcfa; --ink: #16231b; --muted: #5e6c62; --line: #d7dfd4;
+    --head: #123524; --head-ink: #f3f6f1; --flag: #f2c230; --chip: #e3ebe2; --chip-ink: #123524;
+    --four: #1d7a4a; --warn: #a45d06; --err: #b42318;
+    --display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+    --body: "Barlow", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0d1511; --card: #15201a; --ink: #e6ede7; --muted: #93a398; --line: #24322a;
+      --head: #0a2318; --head-ink: #e6ede7; --flag: #f2c230; --chip: #1d2c23; --chip-ink: #d3ecdc;
+      --four: #4cc988; --warn: #f0a33a; --err: #f2867b; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0d1511; --card: #15201a; --ink: #e6ede7; --muted: #93a398; --line: #24322a;
+    --head: #0a2318; --head-ink: #e6ede7; --flag: #f2c230; --chip: #1d2c23; --chip-ink: #d3ecdc;
+    --four: #4cc988; --warn: #f0a33a; --err: #f2867b; color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.45 var(--body); -webkit-font-smoothing: antialiased; }
+  .gutter { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  header { background: var(--head); color: var(--head-ink); padding-block: calc(18px + env(safe-area-inset-top, 0px)) 14px; }
+  h1 { margin: 0; font: 700 30px/1 var(--display); letter-spacing: .01em; text-transform: uppercase; display: flex; align-items: center; gap: 10px; }
+  h1 svg { flex: none; }
+  .sub { margin-top: 6px; color: var(--head-ink); opacity: .78; font-size: 13.5px; }
+  .preview { display: inline-block; margin-top: 8px; font-size: 12px; font-weight: 600; color: var(--head); background: var(--flag); border-radius: 4px; padding: 2px 7px; }
+  .filters { display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap; }
+  .filters button { border: 1px solid color-mix(in srgb, var(--head-ink) 30%, transparent); background: transparent; color: var(--head-ink);
+    border-radius: 999px; padding: 7px 13px; font: 500 13.5px var(--body); cursor: pointer; }
+  .filters button[aria-pressed="true"] { background: var(--flag); color: var(--head); border-color: var(--flag); font-weight: 600; }
+  .filters button:focus-visible, .t:focus-visible, footer a:focus-visible { outline: 2px solid var(--flag); outline-offset: 2px; }
+  main { padding-block: 4px 40px; }
+  .day { margin-top: 20px; display: grid; gap: 10px; }
+  .day h2 { font: 700 19px/1 var(--display); text-transform: uppercase; letter-spacing: .04em; margin: 0 2px; }
+  .course { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px; display: grid; gap: 9px; }
+  .ch { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+  .ch b { font: 600 17px var(--display); letter-spacing: .02em; text-transform: uppercase; }
+  .tier { font-size: 11px; font-weight: 600; letter-spacing: .06em; padding: 2px 7px; border-radius: 4px; background: var(--flag); color: #123524; }
+  .tier.t2 { background: var(--chip); color: var(--muted); }
+  .meta { margin-left: auto; font-size: 12.5px; color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .times { display: flex; flex-wrap: wrap; gap: 6px; }
+  .t { display: inline-flex; flex-direction: column; align-items: center; gap: 4px; min-width: 66px; padding: 7px 8px 6px;
+    border-radius: 8px; background: var(--chip); color: var(--chip-ink); text-decoration: none; font-variant-numeric: tabular-nums; }
+  .t strong { font: 600 15px var(--body); }
+  .t small { font-size: 11px; margin-left: 1px; }
+  .dots { display: flex; gap: 3px; }
+  .dots i { width: 6px; height: 6px; border-radius: 50%; background: currentColor; opacity: .2; }
+  .dots i.on { opacity: 1; }
+  .t.four { box-shadow: inset 0 0 0 1.5px var(--four); }
+  .t.four .dots i.on { background: var(--four); }
+  .none { font-size: 13px; color: var(--muted); margin: 0 2px; }
+  .empty { text-align: center; color: var(--muted); padding: 48px 10px; }
+  footer { margin-top: 28px; font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 12px; }
+  footer ul { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 4px; }
+  footer li { display: flex; gap: 8px; }
+  footer a { color: var(--ink); }
+  .ok { color: var(--four); } .bad { color: var(--err); } .stale { color: var(--warn); }
+  @media (prefers-reduced-motion: no-preference) { .t { transition: transform .08s; } .t:active { transform: scale(.96); } }
+</style>
+</head>
+<body>
+<header class="gutter">
+  <div class="wrap">
+    <h1><svg width="22" height="26" viewBox="0 0 22 26" aria-hidden="true"><path d="M3 25V2l16 6.5L3 15" fill="none" stroke="var(--flag)" stroke-width="3" stroke-linejoin="round"/></svg>Weekend Tee Times</h1>
+    <div class="sub" id="sub">Loading…</div>
+    <div id="preview" hidden></div>
+    <div class="filters" role="group" aria-label="Filters">
+      <button data-f="all" aria-pressed="true">All courses</button>
+      <button data-f="t1" aria-pressed="false">Tier 1 only</button>
+      <button data-f="four" aria-pressed="false">4 spots</button>
+      <button data-f="am" aria-pressed="false">Morning</button>
+    </div>
+  </div>
+</header>
+<div class="gutter"><main class="wrap" id="main"></main></div>
+
+<script>
+const DAY = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+const MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const state = { t1: false, four: false, am: false };
+let data = null;
+
+const fmtTime = t => { const [h, m] = t.split(':').map(Number); return `${h % 12 || 12}:${String(m).padStart(2,'0')}<small>${h < 12 ? 'am' : 'pm'}</small>`; };
+const fmtDate = d => { const x = new Date(d + 'T12:00:00Z'); return `${DAY[x.getUTCDay()]} ${x.getUTCDate()} ${MON[x.getUTCMonth()]}`; };
+const ago = iso => { if (!iso) return 'never'; const m = Math.round((Date.now() - new Date(iso)) / 60000);
+  return m < 1 ? 'just now' : m < 60 ? `${m} min ago` : m < 1440 ? `${Math.round(m/60)} hr ago` : `${Math.round(m/1440)} days ago`; };
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+function render() {
+  const main = document.getElementById('main');
+  if (!data) return;
+  document.getElementById('sub').textContent =
+    `Sat & Sun, tee off before 3pm · checked ${ago(data.generatedAt)}`;
+
+  const today = new Date().toLocaleDateString('en-CA', { timeZone: 'Australia/Sydney' });
+  const courses = data.courses.filter(c => !state.t1 || c.tier === 1);
+  const keep = s => s.date >= today && (!state.four || s.spots >= 4) && (!state.am || s.time < '12:00');
+  const dates = [...new Set(courses.flatMap(c => c.slots.filter(keep).map(s => s.date)))].sort();
+
+  let html = '';
+  if (!data.generatedAt) html = `<div class="empty">Waiting for the first check to run.</div>`;
+  else if (!dates.length) html = `<div class="empty">No matching times right now.<br>You'll get a message when one opens up.</div>`;
+
+  for (const d of dates) {
+    html += `<section class="day"><h2>${fmtDate(d)}</h2>`;
+    const quiet = [];
+    for (const c of courses) {
+      const slots = c.slots.filter(s => s.date === d && keep(s));
+      if (!slots.length) { quiet.push(c.name); continue; }
+      const price = slots.find(s => s.price)?.price;
+      html += `<div class="course"><div class="ch"><b>${esc(c.name)}</b>
+        <span class="tier ${c.tier === 1 ? '' : 't2'}">TIER ${c.tier}</span>
+        <span class="meta">${c.holes} holes${price ? ' · $' + Math.round(price) : ''}</span></div><div class="times">`;
+      for (const s of slots) {
+        const dots = [0,1,2,3].map(i => `<i class="${i < s.spots ? 'on' : ''}"></i>`).join('');
+        html += `<a class="t ${s.spots >= 4 ? 'four' : ''}" href="${esc(s.url)}" target="_blank" rel="noopener"
+          aria-label="${s.time}, ${s.spots} spots"><strong>${fmtTime(s.time)}</strong><span class="dots">${dots}</span></a>`;
+      }
+      html += `</div></div>`;
+    }
+    if (quiet.length) html += `<p class="none">Nothing at ${quiet.map(esc).join(', ')}</p>`;
+    html += `</section>`;
+  }
+
+  html += `<footer>Tap a time to open the club's booking page. Dots show spots left.<ul>` +
+    data.courses.map(c => {
+      const cls = c.ok ? 'ok' : (c.checkedAt ? 'stale' : 'bad');
+      const note = c.ok ? 'OK' : `couldn't check (${esc(c.error || 'error')})${c.checkedAt ? ', showing results from ' + ago(c.checkedAt) : ''}`;
+      return `<li><span class="${cls}">●</span><a href="${esc(c.bookingUrl)}" target="_blank" rel="noopener">${esc(c.name)}</a><span>${note}</span></li>`;
+    }).join('') + `</ul></footer>`;
+  main.innerHTML = html;
+}
+
+document.querySelectorAll('.filters button').forEach(b => b.addEventListener('click', () => {
+  const f = b.dataset.f;
+  if (f === 'all') { state.t1 = state.four = state.am = false; }
+  else state[f] = !state[f];
+  document.querySelectorAll('.filters button').forEach(x => x.setAttribute('aria-pressed',
+    x.dataset.f === 'all' ? String(!state.t1 && !state.four && !state.am) : String(state[x.dataset.f])));
+  render();
+}));
+
+async function load() {
+  if (window.PREVIEW_DATA) { data = window.PREVIEW_DATA; const p = document.getElementById('preview');
+    p.className = 'preview'; p.textContent = 'Preview · sample of real times from Wed 4 Nov'; p.hidden = false; render(); return; }
+  try {
+    const r = await fetch('data.json?ts=' + Date.now(), { cache: 'no-store' });
+    data = await r.json();
+  } catch { document.getElementById('sub').textContent = "Couldn't load times. Pull to refresh."; return; }
+  render();
+}
+load();
+setInterval(load, 5 * 60 * 1000);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) load(); });
+</script>
+</body>
+</html>

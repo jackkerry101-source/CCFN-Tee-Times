@@ -1,0 +1,11 @@
+{
+  "name": "tee-time-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Tracks weekend tee times across Sydney golf courses and alerts a group chat",
+  "scripts": {
+    "check": "node src/run.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}

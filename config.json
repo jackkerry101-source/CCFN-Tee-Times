@@ -1,0 +1,80 @@
+{
+  "timezone": "Australia/Sydney",
+  "daysAhead": 14,
+  "window": {
+    "weekdays": [6, 0],
+    "startBefore": "15:00"
+  },
+  "alertMinSpots": 2,
+  "schedule": {
+    "frequentWeekdays": [1, 2, 3, 5],
+    "otherEveryHours": 3
+  },
+  "requestDelayMs": 1200,
+  "courses": [
+    {
+      "id": "eastlake",
+      "name": "Eastlake",
+      "tier": 1,
+      "holes": 18,
+      "system": "miclub",
+      "host": "www.eastlakegolfclub.com.au",
+      "bookingResourceId": "3000000"
+    },
+    {
+      "id": "coast",
+      "name": "The Coast",
+      "tier": 1,
+      "holes": 18,
+      "system": "miclub",
+      "host": "www.coastgolf.com.au",
+      "bookingResourceId": "3000000",
+      "excludeFeeGroups": "international"
+    },
+    {
+      "id": "stonecutters",
+      "name": "Stonecutters Ridge",
+      "tier": 1,
+      "holes": 18,
+      "system": "miclub",
+      "host": "stonecutters.miclub.com.au",
+      "bookingResourceId": "3000000"
+    },
+    {
+      "id": "moore-park",
+      "name": "Moore Park",
+      "tier": 2,
+      "holes": 12,
+      "system": "miclub",
+      "host": "moorepark.miclub.com.au",
+      "bookingResourceId": "3050007"
+    },
+    {
+      "id": "woollahra",
+      "name": "Woollahra",
+      "tier": 2,
+      "holes": 9,
+      "system": "miclub",
+      "host": "www.woollahragolfclub.com",
+      "bookingResourceId": "3000000"
+    },
+    {
+      "id": "northbridge",
+      "name": "Northbridge",
+      "tier": 2,
+      "holes": 18,
+      "system": "miclub",
+      "host": "northbridge.miclub.com.au",
+      "bookingResourceId": "3000000"
+    },
+    {
+      "id": "marrickville",
+      "name": "Marrickville",
+      "tier": 2,
+      "holes": 18,
+      "system": "teeitup",
+      "alias": "marrickville-golf-club",
+      "facilityId": "16264"
+    }
+  ]
+}
