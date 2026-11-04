@@ -1,0 +1,53 @@
+name: Check tee times
+
+on:
+  schedule:
+    # Every 30 minutes (off the hour to avoid GitHub's busiest minute).
+    # src/gate.mjs thins Thu/Sat/Sun down to every 3 hours, Sydney time.
+    - cron: '7,37 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tee-times
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+
+      - name: Decide whether to run
+        id: gate
+        run: node src/gate.mjs
+        env:
+          FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' }}
+
+      - name: Check courses
+        if: steps.gate.outputs.run == 'true'
+        run: node src/run.mjs
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+
+      - name: Save results
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          git config user.name "tee-time-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data.json $(ls state/*.json 2>/dev/null)
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update tee times"
+            git push
+          fi
