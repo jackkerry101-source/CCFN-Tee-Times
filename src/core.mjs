@@ -132,8 +132,17 @@ export function parseMiclubTimesheet(html) {
   return out;
 }
 
-// Fee groups that only ever cover late-afternoon times; skipping them saves requests.
-const LATE_FEE_GROUP = /twilight|sundowner|late afternoon|after\s*[3-9](:\d\d)?\s*pm|\b[3-9]:\d\d\s*pm\s*-/i;
+// Earliest tee time a late-afternoon fee group covers, read from its name
+// ("SUNDOWNER (After 4:00pm)" -> 16:00, "WEEKEND (3:00pm - 4:00pm)" -> 15:00, "Twilight" -> 15:00).
+// Groups starting at or after the cut-off are skipped to save requests.
+export function feeGroupStart(name) {
+  const m = name.match(/after\s*(\d{1,2})(?::(\d\d))?\s*pm/i) || name.match(/\b(\d{1,2}):(\d\d)\s*pm\s*-/i);
+  if (m) {
+    const h = +m[1] === 12 ? 12 : +m[1] + 12;
+    return `${String(h).padStart(2, '0')}:${m[2] || '00'}`;
+  }
+  return /twilight|sundowner|late afternoon/i.test(name) ? '15:00' : null;
+}
 
 export async function scanMiclub(course, cfg, deps, todayYmd) {
   const { fetchText, sleep } = deps;
@@ -153,7 +162,7 @@ export async function scanMiclub(course, cfg, deps, todayYmd) {
   const wanted = groups.filter(g =>
     g.available && dates.has(g.date) &&
     (course.holes !== 18 || g.eighteen) &&
-    !LATE_FEE_GROUP.test(g.name) &&
+    !((feeGroupStart(g.name) ?? '00:00') >= cfg.window.startBefore) &&
     !(exclude && exclude.test(g.name)));
 
   const seen = new Set();
