@@ -8,7 +8,7 @@
   "alertMinSpots": 2,
   "schedule": {
     "frequentWeekdays": [1, 2, 3, 5],
-    "otherEveryHours": 3
+    "otherEveryHours": 1
   },
   "requestDelayMs": 1200,
   "courses": [
