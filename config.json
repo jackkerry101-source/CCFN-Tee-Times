@@ -3,7 +3,7 @@
   "daysAhead": 14,
   "window": {
     "weekdays": [6, 0],
-    "startBefore": "15:00"
+    "startBefore": "16:00"
   },
   "alertMinSpots": 2,
   "schedule": {
