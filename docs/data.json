@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-05T00:50:35.127Z",
+ "generatedAt": "2026-11-05T01:17:38.199Z",
  "window": {
   "weekdays": [
    6,
@@ -16,7 +16,7 @@
    "holes": 18,
    "bookingUrl": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-05T00:50:35.127Z",
+   "checkedAt": "2026-11-05T01:17:38.199Z",
    "slots": [
     {
      "date": "2026-11-07",
@@ -26,6 +26,51 @@
      "price": 90,
      "holes": 18,
      "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-07&feeGroupId=9270388"
+    },
+    {
+     "date": "2026-11-07",
+     "time": "15:00",
+     "spots": 1,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-07&feeGroupId=2251832"
+    },
+    {
+     "date": "2026-11-07",
+     "time": "15:20",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-07&feeGroupId=2251832"
+    },
+    {
+     "date": "2026-11-07",
+     "time": "15:30",
+     "spots": 1,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-07&feeGroupId=2251832"
+    },
+    {
+     "date": "2026-11-07",
+     "time": "15:40",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-07&feeGroupId=2251832"
+    },
+    {
+     "date": "2026-11-07",
+     "time": "15:50",
+     "spots": 2,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-07&feeGroupId=2251832"
     },
     {
      "date": "2026-11-08",
@@ -53,6 +98,24 @@
      "price": 90,
      "holes": 18,
      "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-08&feeGroupId=9270388"
+    },
+    {
+     "date": "2026-11-08",
+     "time": "15:40",
+     "spots": 1,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-08&feeGroupId=2251832"
+    },
+    {
+     "date": "2026-11-08",
+     "time": "15:50",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-08&feeGroupId=2251832"
     },
     {
      "date": "2026-11-14",
@@ -181,6 +244,51 @@
      "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9270388"
     },
     {
+     "date": "2026-11-14",
+     "time": "15:10",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=2251832"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "15:20",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=2251832"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "15:30",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=2251832"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "15:40",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=2251832"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "15:50",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=2251832"
+    },
+    {
      "date": "2026-11-15",
      "time": "12:50",
      "spots": 2,
@@ -287,6 +395,60 @@
      "price": 90,
      "holes": 18,
      "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=9270388"
+    },
+    {
+     "date": "2026-11-15",
+     "time": "15:00",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=2251832"
+    },
+    {
+     "date": "2026-11-15",
+     "time": "15:10",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=2251832"
+    },
+    {
+     "date": "2026-11-15",
+     "time": "15:20",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=2251832"
+    },
+    {
+     "date": "2026-11-15",
+     "time": "15:30",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=2251832"
+    },
+    {
+     "date": "2026-11-15",
+     "time": "15:40",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=2251832"
+    },
+    {
+     "date": "2026-11-15",
+     "time": "15:50",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=2251832"
     }
    ]
   },
@@ -297,7 +459,7 @@
    "holes": 18,
    "bookingUrl": "https://www.coastgolf.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-05T00:50:35.127Z",
+   "checkedAt": "2026-11-05T01:17:38.199Z",
    "slots": [
     {
      "date": "2026-11-07",
@@ -443,7 +605,7 @@
    "holes": 18,
    "bookingUrl": "https://stonecutters.miclub.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-05T00:50:35.127Z",
+   "checkedAt": "2026-11-05T01:17:38.199Z",
    "slots": [
     {
      "date": "2026-11-07",
@@ -463,7 +625,7 @@
    "holes": 12,
    "bookingUrl": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3050007",
    "ok": true,
-   "checkedAt": "2026-11-05T00:50:35.127Z",
+   "checkedAt": "2026-11-05T01:17:38.199Z",
    "slots": [
     {
      "date": "2026-11-07",
@@ -1293,7 +1455,7 @@
    "holes": 9,
    "bookingUrl": "https://www.woollahragolfclub.com/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-05T00:50:35.127Z",
+   "checkedAt": "2026-11-05T01:17:38.199Z",
    "slots": [
     {
      "date": "2026-11-07",
@@ -1538,7 +1700,7 @@
    "holes": 18,
    "bookingUrl": "https://northbridge.miclub.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-05T00:50:35.127Z",
+   "checkedAt": "2026-11-05T01:17:38.199Z",
    "slots": [
     {
      "date": "2026-11-07",
@@ -2233,7 +2395,7 @@
    "holes": 18,
    "bookingUrl": "https://marrickville-golf-club.book.teeitup.com/",
    "ok": true,
-   "checkedAt": "2026-11-05T00:50:35.127Z",
+   "checkedAt": "2026-11-05T01:17:38.199Z",
    "slots": [
     {
      "date": "2026-11-07",
