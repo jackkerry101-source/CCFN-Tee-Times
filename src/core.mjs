@@ -255,9 +255,13 @@ export function newlyAvailable(prev, curr, minSpots) {
   return out;
 }
 
-// Should this scheduled run go ahead? (GitHub runs us every 30 min; we thin it out.)
-export function shouldRun(now, cfg) {
+// Should this scheduled run go ahead? GitHub wakes us roughly every 30 minutes, but often
+// late or not at all, so go by the time since the last completed check, not the clock.
+// 15 minutes of slack keeps an hourly check from slipping to every 90 minutes.
+export function shouldRun(now, cfg, lastCheckIso) {
   const p = localParts(now, cfg.timezone);
   if (cfg.schedule.frequentWeekdays.includes(p.weekday)) return true;
-  return p.hour % cfg.schedule.otherEveryHours === 0 && p.minute < 30;
+  if (!lastCheckIso) return true;
+  const elapsedMin = (now - new Date(lastCheckIso)) / 60000;
+  return elapsedMin >= cfg.schedule.otherEveryHours * 60 - 15;
 }
