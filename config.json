@@ -41,6 +41,15 @@
       "bookingResourceId": "3000000"
     },
     {
+      "id": "twin-creeks",
+      "name": "Twin Creeks",
+      "tier": 1,
+      "holes": 18,
+      "system": "miclub",
+      "host": "www.twincreeksgolf.com.au",
+      "bookingResourceId": "3000000"
+    },
+    {
       "id": "moore-park",
       "name": "Moore Park",
       "tier": 2,
