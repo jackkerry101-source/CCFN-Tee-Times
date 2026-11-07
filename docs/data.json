@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07T08:51:33.061Z",
+ "generatedAt": "2026-11-07T09:21:33.924Z",
  "window": {
   "weekdays": [
    6,
@@ -16,8 +16,17 @@
    "holes": 18,
    "bookingUrl": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-07T08:51:33.061Z",
+   "checkedAt": "2026-11-07T09:21:33.924Z",
    "slots": [
+    {
+     "date": "2026-11-08",
+     "time": "12:50",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-08&feeGroupId=9270388"
+    },
     {
      "date": "2026-11-08",
      "time": "13:00",
@@ -522,7 +531,7 @@
    "holes": 18,
    "bookingUrl": "https://www.coastgolf.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-07T08:51:33.061Z",
+   "checkedAt": "2026-11-07T09:21:33.924Z",
    "slots": [
     {
      "date": "2026-11-14",
@@ -785,7 +794,7 @@
    "holes": 18,
    "bookingUrl": "https://stonecutters.miclub.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-07T08:51:33.061Z",
+   "checkedAt": "2026-11-07T09:21:33.924Z",
    "slots": [
     {
      "date": "2026-11-14",
@@ -862,13 +871,357 @@
    ]
   },
   {
+   "id": "twin-creeks",
+   "name": "Twin Creeks",
+   "tier": 1,
+   "holes": 18,
+   "bookingUrl": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
+   "ok": true,
+   "checkedAt": "2026-11-07T09:21:33.924Z",
+   "slots": [
+    {
+     "date": "2026-11-08",
+     "time": "11:10",
+     "spots": 2,
+     "label": "10th Tee PM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-08&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-08",
+     "time": "11:20",
+     "spots": 2,
+     "label": "10th Tee PM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-08&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-08",
+     "time": "11:30",
+     "spots": 1,
+     "label": "1st Tee PM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-08&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-08",
+     "time": "15:40",
+     "spots": 4,
+     "label": "10th Tee Afternoon",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-08&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-08",
+     "time": "15:48",
+     "spots": 4,
+     "label": "1st Tee Afternoon",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-08&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-08",
+     "time": "15:56",
+     "spots": 4,
+     "label": "1st Tee Afternoon",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-08&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "12:04",
+     "spots": 4,
+     "label": "TC CUP PM FIELD",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "12:12",
+     "spots": 4,
+     "label": "TC CUP PM FIELD",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "12:52",
+     "spots": 1,
+     "label": "1st Tee",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "13:08",
+     "spots": 1,
+     "label": "1st Tee",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "13:24",
+     "spots": 3,
+     "label": "1st Tee",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "13:32",
+     "spots": 4,
+     "label": "1st Tee",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "13:40",
+     "spots": 4,
+     "label": "1st Tee",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "13:48",
+     "spots": 4,
+     "label": "1st Tee",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "13:56",
+     "spots": 4,
+     "label": "1st Tee",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "14:04",
+     "spots": 3,
+     "label": "1st Tee",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "14:12",
+     "spots": 4,
+     "label": "1st Tee",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "14:20",
+     "spots": 4,
+     "label": "1st Tee",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "14:28",
+     "spots": 4,
+     "label": "1st Tee",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "14:36",
+     "spots": 4,
+     "label": "1st Tee",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "14:44",
+     "spots": 4,
+     "label": "1st Tee",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "14:52",
+     "spots": 4,
+     "label": "1st Tee",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "15:00",
+     "spots": 4,
+     "label": "1st Tee",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "15:08",
+     "spots": 4,
+     "label": "1st Tee",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "15:16",
+     "spots": 4,
+     "label": "1st Tee",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "15:24",
+     "spots": 4,
+     "label": "1st Tee",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "15:32",
+     "spots": 4,
+     "label": "1st Tee",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "15:40",
+     "spots": 4,
+     "label": "1st Tee",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "15:48",
+     "spots": 4,
+     "label": "1st Tee",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "15:56",
+     "spots": 4,
+     "label": "1st Tee",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-15",
+     "time": "11:10",
+     "spots": 1,
+     "label": "1st Tee PM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-15",
+     "time": "11:20",
+     "spots": 2,
+     "label": "10th Tee PM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-15",
+     "time": "11:40",
+     "spots": 4,
+     "label": "10th Tee PM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-15",
+     "time": "11:50",
+     "spots": 2,
+     "label": "1st Tee PM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-15",
+     "time": "15:40",
+     "spots": 4,
+     "label": "10th Tee Afternoon",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-15",
+     "time": "15:48",
+     "spots": 4,
+     "label": "10th Tee Afternoon",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-15",
+     "time": "15:56",
+     "spots": 4,
+     "label": "1st Tee Afternoon",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=9006621"
+    }
+   ]
+  },
+  {
    "id": "moore-park",
    "name": "Moore Park",
    "tier": 2,
    "holes": 12,
    "bookingUrl": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3050007",
    "ok": true,
-   "checkedAt": "2026-11-07T08:51:33.061Z",
+   "checkedAt": "2026-11-07T09:21:33.924Z",
    "slots": [
     {
      "date": "2026-11-08",
@@ -1779,7 +2132,7 @@
    "holes": 9,
    "bookingUrl": "https://www.woollahragolfclub.com/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-07T08:51:33.061Z",
+   "checkedAt": "2026-11-07T09:21:33.924Z",
    "slots": [
     {
      "date": "2026-11-08",
@@ -1835,7 +2188,7 @@
    "holes": 18,
    "bookingUrl": "https://northbridge.miclub.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-07T08:51:33.061Z",
+   "checkedAt": "2026-11-07T09:21:33.924Z",
    "slots": [
     {
      "date": "2026-11-08",
@@ -2467,7 +2820,7 @@
    "holes": 18,
    "bookingUrl": "https://marrickville-golf-club.book.teeitup.com/",
    "ok": true,
-   "checkedAt": "2026-11-07T08:51:33.061Z",
+   "checkedAt": "2026-11-07T09:21:33.924Z",
    "slots": [
     {
      "date": "2026-11-08",
@@ -2517,15 +2870,6 @@
     {
      "date": "2026-11-08",
      "time": "11:40",
-     "spots": 1,
-     "label": "18 Holes",
-     "price": 45,
-     "holes": 18,
-     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-08"
-    },
-    {
-     "date": "2026-11-08",
-     "time": "11:50",
      "spots": 1,
      "label": "18 Holes",
      "price": 45,
