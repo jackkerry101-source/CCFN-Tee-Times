@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T01:46:42.642Z",
+ "generatedAt": "2026-11-13T02:50:18.428Z",
  "window": {
   "weekdays": [
    6,
@@ -16,11 +16,11 @@
    "holes": 18,
    "bookingUrl": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-13T01:46:42.642Z",
+   "checkedAt": "2026-11-13T02:50:18.428Z",
    "slots": [
     {
      "date": "2026-11-14",
-     "time": "11:40",
+     "time": "11:50",
      "spots": 4,
      "label": "Social Play Times",
      "price": 90,
@@ -29,7 +29,7 @@
     },
     {
      "date": "2026-11-14",
-     "time": "11:50",
+     "time": "12:00",
      "spots": 4,
      "label": "Social Play Times",
      "price": 90,
@@ -531,7 +531,7 @@
    "holes": 18,
    "bookingUrl": "https://www.coastgolf.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-13T01:46:42.642Z",
+   "checkedAt": "2026-11-13T02:50:18.428Z",
    "slots": [
     {
      "date": "2026-11-14",
@@ -671,7 +671,7 @@
     {
      "date": "2026-11-15",
      "time": "14:38",
-     "spots": 4,
+     "spots": 2,
      "label": "1st Tee Social",
      "price": 100,
      "holes": 18,
@@ -731,21 +731,12 @@
    "holes": 18,
    "bookingUrl": "https://stonecutters.miclub.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-13T01:46:42.642Z",
+   "checkedAt": "2026-11-13T02:50:18.428Z",
    "slots": [
     {
      "date": "2026-11-14",
      "time": "15:00",
      "spots": 1,
-     "label": "1st Tee Social Play",
-     "price": null,
-     "holes": 18,
-     "url": "https://stonecutters.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=1509251471"
-    },
-    {
-     "date": "2026-11-14",
-     "time": "15:16",
-     "spots": 2,
      "label": "1st Tee Social Play",
      "price": null,
      "holes": 18,
@@ -886,7 +877,7 @@
    "holes": 18,
    "bookingUrl": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-13T01:46:42.642Z",
+   "checkedAt": "2026-11-13T02:50:18.428Z",
    "slots": [
     {
      "date": "2026-11-14",
@@ -1248,7 +1239,7 @@
    "holes": 12,
    "bookingUrl": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3050007",
    "ok": true,
-   "checkedAt": "2026-11-13T01:46:42.642Z",
+   "checkedAt": "2026-11-13T02:50:18.428Z",
    "slots": [
     {
      "date": "2026-11-14",
@@ -1416,15 +1407,6 @@
      "date": "2026-11-15",
      "time": "12:58",
      "spots": 1,
-     "label": "1ST TEE",
-     "price": 50,
-     "holes": 12,
-     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-15&feeGroupId=1517552336"
-    },
-    {
-     "date": "2026-11-15",
-     "time": "13:06",
-     "spots": 2,
      "label": "1ST TEE",
      "price": 50,
      "holes": 12,
@@ -2105,7 +2087,7 @@
    "holes": 9,
    "bookingUrl": "https://www.woollahragolfclub.com/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-13T01:46:42.642Z",
+   "checkedAt": "2026-11-13T02:50:18.428Z",
    "slots": [
     {
      "date": "2026-11-14",
@@ -2200,7 +2182,7 @@
     {
      "date": "2026-11-15",
      "time": "14:52",
-     "spots": 3,
+     "spots": 2,
      "label": "Public Bookings",
      "price": 41,
      "holes": 9,
@@ -2227,7 +2209,7 @@
     {
      "date": "2026-11-15",
      "time": "15:24",
-     "spots": 4,
+     "spots": 3,
      "label": "Public Bookings",
      "price": 41,
      "holes": 9,
@@ -2260,17 +2242,8 @@
    "holes": 18,
    "bookingUrl": "https://northbridge.miclub.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-13T01:46:42.642Z",
+   "checkedAt": "2026-11-13T02:50:18.428Z",
    "slots": [
-    {
-     "date": "2026-11-14",
-     "time": "12:03",
-     "spots": 4,
-     "label": "Social Play",
-     "price": 69,
-     "holes": 18,
-     "url": "https://northbridge.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=132857"
-    },
     {
      "date": "2026-11-14",
      "time": "12:10",
@@ -2320,15 +2293,6 @@
      "date": "2026-11-14",
      "time": "14:10",
      "spots": 1,
-     "label": "Social Play",
-     "price": 69,
-     "holes": 18,
-     "url": "https://northbridge.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-14&feeGroupId=132857"
-    },
-    {
-     "date": "2026-11-14",
-     "time": "14:20",
-     "spots": 2,
      "label": "Social Play",
      "price": 69,
      "holes": 18,
@@ -2525,7 +2489,7 @@
     },
     {
      "date": "2026-11-15",
-     "time": "14:50",
+     "time": "15:00",
      "spots": 4,
      "label": "Social Play",
      "price": 69,
@@ -2919,7 +2883,7 @@
    "holes": 18,
    "bookingUrl": "https://marrickville-golf-club.book.teeitup.com/",
    "ok": true,
-   "checkedAt": "2026-11-13T01:46:42.642Z",
+   "checkedAt": "2026-11-13T02:50:18.428Z",
    "slots": [
     {
      "date": "2026-11-14",
@@ -2934,15 +2898,6 @@
      "date": "2026-11-14",
      "time": "14:40",
      "spots": 3,
-     "label": "18 Holes",
-     "price": 45,
-     "holes": 18,
-     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-14"
-    },
-    {
-     "date": "2026-11-14",
-     "time": "14:50",
-     "spots": 4,
      "label": "18 Holes",
      "price": 45,
      "holes": 18,
