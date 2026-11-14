@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T12:49:12.356Z",
+ "generatedAt": "2026-11-14T13:52:09.329Z",
  "window": {
   "weekdays": [
    6,
@@ -16,7 +16,7 @@
    "holes": 18,
    "bookingUrl": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-14T12:49:12.356Z",
+   "checkedAt": "2026-11-14T13:52:09.329Z",
    "slots": [
     {
      "date": "2026-11-15",
@@ -395,6 +395,186 @@
      "price": 80,
      "holes": 18,
      "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-28&feeGroupId=2251832"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "12:20",
+     "spots": 2,
+     "label": "Social Play Times",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9270388"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "12:30",
+     "spots": 2,
+     "label": "Social Play Times",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9270388"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "13:00",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9270388"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "13:10",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9270388"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "13:20",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9270388"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "13:30",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9270388"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "13:40",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9270388"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "13:50",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9270388"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:00",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9270388"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:10",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9270388"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:20",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9270388"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:30",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9270388"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:40",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9270388"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:50",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9270388"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "15:00",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=2251832"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "15:10",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=2251832"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "15:20",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=2251832"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "15:30",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=2251832"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "15:40",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=2251832"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "15:50",
+     "spots": 4,
+     "label": "Social Play Times",
+     "price": 80,
+     "holes": 18,
+     "url": "https://www.eastlakegolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=2251832"
     }
    ]
   },
@@ -405,7 +585,7 @@
    "holes": 18,
    "bookingUrl": "https://www.coastgolf.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-14T12:49:12.356Z",
+   "checkedAt": "2026-11-14T13:52:09.329Z",
    "slots": [
     {
      "date": "2026-11-21",
@@ -428,7 +608,7 @@
     {
      "date": "2026-11-21",
      "time": "14:16",
-     "spots": 4,
+     "spots": 3,
      "label": "1st Tee Public",
      "price": 100,
      "holes": 18,
@@ -527,7 +707,7 @@
     {
      "date": "2026-11-22",
      "time": "14:46",
-     "spots": 2,
+     "spots": 1,
      "label": "1st Tee Social",
      "price": 100,
      "holes": 18,
@@ -614,7 +794,7 @@
    "holes": 18,
    "bookingUrl": "https://stonecutters.miclub.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-14T12:49:12.356Z",
+   "checkedAt": "2026-11-14T13:52:09.329Z",
    "slots": [
     {
      "date": "2026-11-21",
@@ -706,71 +886,8 @@
    "holes": 18,
    "bookingUrl": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-14T12:49:12.356Z",
+   "checkedAt": "2026-11-14T13:52:09.329Z",
    "slots": [
-    {
-     "date": "2026-11-15",
-     "time": "11:00",
-     "spots": 4,
-     "label": "10th Tee PM",
-     "price": 120,
-     "holes": 18,
-     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=9006621"
-    },
-    {
-     "date": "2026-11-15",
-     "time": "11:10",
-     "spots": 2,
-     "label": "1st Tee PM",
-     "price": 120,
-     "holes": 18,
-     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=9006621"
-    },
-    {
-     "date": "2026-11-15",
-     "time": "11:40",
-     "spots": 2,
-     "label": "1st Tee PM",
-     "price": 120,
-     "holes": 18,
-     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=9006621"
-    },
-    {
-     "date": "2026-11-15",
-     "time": "11:50",
-     "spots": 1,
-     "label": "1st Tee PM",
-     "price": 120,
-     "holes": 18,
-     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=9006621"
-    },
-    {
-     "date": "2026-11-15",
-     "time": "15:40",
-     "spots": 4,
-     "label": "10th Tee Afternoon",
-     "price": 90,
-     "holes": 18,
-     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=9006621"
-    },
-    {
-     "date": "2026-11-15",
-     "time": "15:48",
-     "spots": 4,
-     "label": "10th Tee Afternoon",
-     "price": 90,
-     "holes": 18,
-     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=9006621"
-    },
-    {
-     "date": "2026-11-15",
-     "time": "15:56",
-     "spots": 4,
-     "label": "10th Tee Afternoon",
-     "price": 90,
-     "holes": 18,
-     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-15&feeGroupId=9006621"
-    },
     {
      "date": "2026-11-22",
      "time": "11:30",
@@ -1103,6 +1220,177 @@
      "price": 90,
      "holes": 18,
      "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-28&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "06:52",
+     "spots": 1,
+     "label": "10th Tee AM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "07:00",
+     "spots": 4,
+     "label": "10th Tee AM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "07:08",
+     "spots": 4,
+     "label": "10th Tee AM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "07:40",
+     "spots": 2,
+     "label": "10th Tee AM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "10:50",
+     "spots": 2,
+     "label": "1st Tee PM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "11:10",
+     "spots": 4,
+     "label": "1st Tee PM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "11:20",
+     "spots": 4,
+     "label": "1st Tee PM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "11:30",
+     "spots": 4,
+     "label": "1st Tee PM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "11:40",
+     "spots": 4,
+     "label": "1st Tee PM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "11:50",
+     "spots": 4,
+     "label": "1st Tee PM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "12:00",
+     "spots": 4,
+     "label": "1st Tee PM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "12:10",
+     "spots": 4,
+     "label": "1st Tee PM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "12:20",
+     "spots": 4,
+     "label": "1st Tee PM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "12:30",
+     "spots": 4,
+     "label": "1st Tee PM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "12:40",
+     "spots": 4,
+     "label": "1st Tee PM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "12:50",
+     "spots": 4,
+     "label": "1st Tee PM",
+     "price": 120,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "15:40",
+     "spots": 4,
+     "label": "1st Tee Afternoon",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "15:48",
+     "spots": 4,
+     "label": "1st Tee Afternoon",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9006621"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "15:56",
+     "spots": 4,
+     "label": "1st Tee Afternoon",
+     "price": 90,
+     "holes": 18,
+     "url": "https://www.twincreeksgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-11-29&feeGroupId=9006621"
     }
    ]
   },
@@ -1113,7 +1401,7 @@
    "holes": 12,
    "bookingUrl": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3050007",
    "ok": true,
-   "checkedAt": "2026-11-14T12:49:12.356Z",
+   "checkedAt": "2026-11-14T13:52:09.329Z",
    "slots": [
     {
      "date": "2026-11-15",
@@ -1128,15 +1416,6 @@
      "date": "2026-11-15",
      "time": "12:18",
      "spots": 1,
-     "label": "1ST TEE",
-     "price": 50,
-     "holes": 12,
-     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-15&feeGroupId=1517552336"
-    },
-    {
-     "date": "2026-11-15",
-     "time": "12:42",
-     "spots": 2,
      "label": "1ST TEE",
      "price": 50,
      "holes": 12,
@@ -2068,6 +2347,321 @@
      "price": 50,
      "holes": 12,
      "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-28&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "06:10",
+     "spots": 1,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "06:26",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "06:34",
+     "spots": 3,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "06:42",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "06:50",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "06:58",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "07:06",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "07:14",
+     "spots": 2,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "07:22",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "07:30",
+     "spots": 3,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "12:26",
+     "spots": 1,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "12:42",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "12:50",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "12:58",
+     "spots": 2,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "13:14",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "13:22",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "13:30",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "13:38",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "13:46",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "13:54",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:02",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:10",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:18",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:26",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:34",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:42",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:50",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:58",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "15:06",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "15:14",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "15:22",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "15:30",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "15:38",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "15:46",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "15:54",
+     "spots": 4,
+     "label": "1ST TEE",
+     "price": 50,
+     "holes": 12,
+     "url": "https://moorepark.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3050007&selectedDate=2026-11-29&feeGroupId=1517552336"
     }
    ]
   },
@@ -2078,7 +2672,7 @@
    "holes": 9,
    "bookingUrl": "https://www.woollahragolfclub.com/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-14T12:49:12.356Z",
+   "checkedAt": "2026-11-14T13:52:09.329Z",
    "slots": [
     {
      "date": "2026-11-15",
@@ -2170,7 +2764,7 @@
    "holes": 18,
    "bookingUrl": "https://northbridge.miclub.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000",
    "ok": true,
-   "checkedAt": "2026-11-14T12:49:12.356Z",
+   "checkedAt": "2026-11-14T13:52:09.329Z",
    "slots": [
     {
      "date": "2026-11-15",
@@ -2874,7 +3468,7 @@
    "holes": 18,
    "bookingUrl": "https://marrickville-golf-club.book.teeitup.com/",
    "ok": true,
-   "checkedAt": "2026-11-14T12:49:12.356Z",
+   "checkedAt": "2026-11-14T13:52:09.329Z",
    "slots": [
     {
      "date": "2026-11-15",
@@ -3523,6 +4117,285 @@
      "price": 45,
      "holes": 18,
      "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-28"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "10:20",
+     "spots": 2,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "10:30",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "10:40",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "10:50",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "11:00",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "11:10",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "11:20",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "11:30",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "11:40",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "11:50",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "12:00",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "12:10",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "12:20",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "12:30",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "12:40",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "12:50",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "13:00",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "13:10",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "13:20",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "13:30",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "13:40",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "13:50",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:00",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:07",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:14",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:21",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:28",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:35",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:42",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:49",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "14:56",
+     "spots": 4,
+     "label": "18 Holes",
+     "price": 45,
+     "holes": 18,
+     "url": "https://marrickville-golf-club.book.teeitup.com/?course=16264&date=2026-11-29"
     }
    ]
   }
