@@ -50,6 +50,15 @@
       "bookingResourceId": "3000000"
     },
     {
+      "id": "bayview",
+      "name": "Bayview",
+      "tier": 1,
+      "holes": 18,
+      "system": "miclub",
+      "host": "bayviewgolfclub.com.au",
+      "bookingResourceId": "3000000"
+    },
+    {
       "id": "moore-park",
       "name": "Moore Park",
       "tier": 2,
